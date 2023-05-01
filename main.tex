@@ -1,0 +1,305 @@
+%-------------------------
+% Resume in Latex
+% Author : Jake Gutierrez
+% Based off of: https://github.com/sb2nov/resume
+% License : MIT
+%------------------------
+
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\usepackage{fontawesome5}
+\usepackage{multicol}
+\usepackage{wasysym}
+\setlength{\multicolsep}{-3.0pt}
+\setlength{\columnsep}{-1pt}
+\input{glyphtounicode}
+\usepackage{fontawesome5}
+
+\newcommand{\portfoliosymbol}{\faFolderOpen\hspace{-.1em}\faBriefcase}
+
+
+
+%----------FONT OPTIONS----------
+% sans-serif
+% \usepackage[sfdefault]{FiraSans}
+% \usepackage[sfdefault]{roboto}
+% \usepackage[sfdefault]{noto-sans}
+% \usepackage[default]{sourcesanspro}
+
+% serif
+% \usepackage{CormorantGaramond}
+% \usepackage{charter}
+
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.6in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1.19in}
+\addtolength{\topmargin}{-.7in}
+\addtolength{\textheight}{1.4in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large\bfseries
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+% Ensure that generate pdf is machine readable/ATS parsable
+\pdfgentounicode=1
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\classesList}[4]{
+    \item\small{
+        {#1 #2 #3 #4 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{1.0\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & \textbf{\small #2} \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubSubheading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textit{\small#1} & \textit{\small #2} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeProjectHeading}[2]{
+    \item
+    \begin{tabular*}{1.001\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1 & \textbf{\small #2}\\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+
+\renewcommand\labelitemi{$\vcenter{\hbox{\tiny$\bullet$}}$}
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.0in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{document}
+
+%----------HEADING----------
+% \begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
+%   \textbf{\href{http://sourabhbajaj.com/}{\Large Sourabh Bajaj}} & Email : \href{mailto:sourabh@sourabhbajaj.com}{sourabh@sourabhbajaj.com}\\
+%   \href{http://sourabhbajaj.com/}{http://www.sourabhbajaj.com} & Mobile : +1-123-456-7890 \\
+% \end{tabular*}
+
+\begin{center}
+    {\Huge \scshape Venkata Sai Yakkshit Reddy Asodi}~\href{https://www.cedzlabs.com/yakkshit}{\vspace{1pt}}\\
+    Kungsmarkvågen 71 37144. \\ \vspace{1pt}
+    \small \raisebox{-0.1\height}\faPhone\ +46 0793550685 ~ \href{mailto:saiyakkshit2001@gmail.com}{\raisebox{-0.2\height}\faEnvelope\  {saiyakkshit2001@gmail.com}} ~ 
+    \href{https://linkedin.com/in/yakkshit/}{\raisebox{-0.2\height}\faLinkedin\ {yakkshit}}  ~
+    \href{https://cedzlabs.com/yakkshit}{\raisebox{-0.2\height}\faRss\ {yakkshit}}  ~
+    \href{https://github.com/saiyakkshit}{\raisebox{-0.2\height}\faGithub{ saiyakkshit}}
+    \vspace{-8pt}
+\end{center}
+%-----------EDUCATION-----------
+\section{Summary}
+As a tech enthusiast who is currently pursuing a Bachelor’s degree in Computers at the Blekinge Institute of Technology. I have completed various certifications, such as MTA-Python and Java, AI-Intern, and GCP Cloud Carrier Path. Additionally, I worked on numerous projects, and I Have participated in the Devfest of the Google Developers Club where I have to build a Google Assistant using Google Cloud services and APIs.
+During the development, I used RESTful API for the HTTP request protocol to establish the communication between the client and server. I used to write the JSON key-value pairs for the HTTP request in the RESTful API. I have created automation to read the JSON file to get the Authentication. The project uses the cloud‑based Google Assistant uses Dialogflow and the Actions and Cloud Functions simulator environment for development and testing, deploying apps into personal devices like Google Home or Google Hub.
+
+%-----------EDUCATION-----------
+\section{Education Details}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {Blekinge Institute of Technology}{Sep. 2022 -- Present}
+      {Bachelor of Science in Computer Science}{Valhallavägen 1, 371 41 Karlskrona.}
+  \resumeSubHeadingListEnd
+
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {University College Of Engineering Jntuk}{Aug. 2019 -- Jun. 2022}
+      {Bachelor of Science in Computer Science}{Kakinada, AndhraPradesh, India 533003.}
+  \resumeSubHeadingListEnd
+
+%
+%-----------PROGRAMMING SKILLS-----------
+\section{Technical Skills}
+ \begin{itemize}[leftmargin=0.15in, label={}]
+    \small{\item{
+     \textbf{Deployment/Automation/templating tools : }{Terraform, Jenkins, Docker, Bitbucket/Gitlab CI/CD pipeline.} \\
+     \textbf{Developer Tools : }{Unity, AWS, Google Cloud Platform, Android Studio} \\
+     \textbf{Technologies : }{ GitHub} \\
+     \textbf{Frameworks : }{Django, Nodejs, HTTP, RESTful API.}\\
+     \textbf{Languages : }{ Python, Java, C, HTML, JS, SQL, Command Line Tools(Shell scripting, Linux)}\\
+     \textbf{Testing Tools : }{Firebase Performance, Firebase Testing, Unit testing. }\\
+    }}
+ \end{itemize}
+ \vspace{-16pt}
+
+%-----------EXPERIENCE-----------
+\section{Professional Experience}
+  \resumeSubHeadingListStart
+
+    \resumeSubheading
+      {VERZEO.INC}{Aug 2020 -- Mar 2021}
+      {AI Engineer Intern}{Remote}\\
+      \vspace{10pt}
+      \textbf{Description : }This Python project uses computer vision and a deep learning model to detect face masks in images and videos. It can identify
+individuals wearing masks and those who are not and can be integrated into real-time face mask detection systems.\\
+\textbf{Responsibilities : }
+      \vspace{-5pt}
+      \resumeItemListStart
+        \resumeItem{I have used the given data set which was provided by Company.}
+        \resumeItem{I have used Deep learning library Tensor flow to train the model to accurately identify individuals wearing masks and those
+        who are not.}
+        \resumeItem{I have used the OpenCV library to integrate the trained model into a real-time face mask detection system. This could
+        involve using OpenCV’s computer vision capabilities to detect faces in images and videos.}
+        \resumeItem{Test for the face mask detection system to ensure that it is accurately identifying individuals wearing masks and those who
+are not.}\\
+
+      \resumeItemListEnd
+\vspace{0.5pt}
+\textbf{Environment:}\emph{Python, TensorFlow, OpenCV, Deeplearning.}
+    \resumeSubheading
+      {BetaTesting, Inc}{Jan 2023 -- Present}
+      {Android Application Tester}{Remote}\\
+      \vspace{10pt}
+      \textbf{Description:}
+      I Have worked as a beta tester for the New App Launcher on Android Phones, identifying and reporting bugs to the development team, and developed problem-solving skills and attention to detail through this experience. I have also learned to work collaboratively with a team to improve user experience and web security.
+      \vspace{-10pt}
+      \textbf{Responsibilities:}
+      \resumeItemListStart
+        \resumeItem{The Robo Script was designed to Test the application.}
+        \resumeItem{The Log Reports was monitered.}
+        \resumeItem{Utilized Android Studio as a development environment in order to visualize the application in Android.}
+        \resumeItem{Appium is used to for the automation testing of the application.}
+    \resumeItemListEnd
+    \textbf{Environment:}\emph{Android app testing, bug reporting, problem-solving, collaboration, Android Studio, Appium.}
+  \resumeSubHeadingListEnd
+\vspace{-16pt}
+
+%-----------PROJECTS-----------
+\section{Projects}
+    \vspace{-5pt}
+    \resumeSubHeadingListStart
+      \resumeProjectHeading
+          {\textbf{AWS File Encryption} $|$ \emph{Python, Selenium, Google Cloud Console}}{January 2023}\\
+          \vspace{9pt}
+          \textbf{Description:}
+          The project involved using AWS KMS and S3 to encrypt and decrypt files securely. A unique key is generated using KMS to
+encrypt files, and the same key is used to decrypt them, with access controls implemented using IAM to ensure authorized
+access.
+          \vspace{-8pt}
+          \resumeItemListStart
+            \resumeItem{Designed and implemented a secure file encryption/decryption system using AWS KMS and S3, with access controls enforced through IAM.}
+            \resumeItem{Utilized AWS KMS and S3 to encrypt and decrypt files, generating unique keys for secure access. Implemented access controls through IAM to ensure authorized access.}
+            \resumeItem{Successfully implemented a secure and scalable file encryption/decryption system, improving data security and access control for the organization.}
+          \resumeItemListEnd
+          \textbf{Tools:}\emph{ AWS KMS, S3, encryption, decryption, unique key, access controls, IAM, secure files.}
+          \vspace{-18pt}
+      \resumeProjectHeading
+          {\textbf{Networking and Firewalls} $|$ \emph{Bash, Ubuntu}}{November 2022}\\
+          \vspace{10pt}
+          \textbf{Description:}
+           I utilized bash scripting and Ubuntu to establish communication between networked devices. I employed HTTP requests to enable data transfer between these devices, and set up firewall rules to ensure secure communication.
+           \vspace{-8pt}
+          \resumeItemListStart
+            \resumeItem{I have updated firewall rules to establish the secured connection between client and server.}
+            \resumeItem{Implemented a secure network communication system using bash scripting and Ubuntu, enabling data transfer between networked devices through HTTP requests and firewall rules.}
+            \resumeItem{Utilized bash scripting and Ubuntu to establish communication between networked devices, employed HTTP requests for data transfer, and set up firewall rules to ensure secure communication.}
+            \resumeItem{Successfully designed and implemented a secure network communication system, improving data transfer capabilities and ensuring the security of sensitive information.}
+          \resumeItemListEnd 
+          \textbf{Tools:}\emph{Bash scripting,
+Ubuntu OS,
+HTTP requests,
+Firewall rules.}
+          \vspace{-18pt}
+          \resumeProjectHeading
+          {\textbf{DevOps Essentials in Google Cloud} $|$ \emph{CI/CD, Google Cloud Console}}{October 2020}\\
+          \vspace{9pt}
+          \textbf{Description:}
+          I have gained hands-on experience and helped them improve in areas such as Cloud Source Repositories, Kubernetes Engine, Load Balancers, and troubleshooting workloads on GKE. Using DevOps in GCP.
+          \vspace{-8pt}
+          \resumeItemListStart
+            \resumeItem{I have used the cloud repositories using git and pushing the contents into the local repository.}
+            \resumeItem{I have done the management Deployments Using Kubernetes Engine. which helped in Scaling and managing containers to
+accomplish common scenarios where multiple heterogeneous deployments are used.}
+            \resumeItem{I have learned to Deploy Kubernetes Load Balancer Service with Terraform by setup a Kubernetes cluster and deploy Load
+Balancer type Nginx service on it.}
+            \resumeItem{I have learned to deploy and completely configure a continuous delivery pipeline using Jenkins running on Kubernetes
+Engine and go through the dev-deploy process.}
+          \resumeItemListEnd 
+          \textbf{Tools:}\emph{
+Terraform, Kubernetes, Nginx, Jenkins, DevOps.}
+    \resumeSubHeadingListEnd
+\vspace{-15pt}
+
+
+
+%------RELEVANT COURSEWORK-------
+\section{Relevant Coursework}
+    %\resumeSubHeadingListStart
+        \begin{multicols}{4}
+            \begin{itemize}[itemsep=-5pt, parsep=3pt]
+                \item\small Data Structures
+                \item Software Methodology
+                \item Algorithms Analysis
+                \item Database Management
+                \item Network Slicing
+                \item Internet Technology
+                \item Systems Programming
+                \item Computer Architecture
+            \end{itemize}
+        \end{multicols}
+        \vspace*{2.0\multicolsep}
+    %\resumeSubHeadingListEnd
+
+
+%-----------INVOLVEMENT---------------
+\section{Leadership / Extracurricular}
+            \resumeItemListStart
+                \resumeItem{I have Achieved
+                various certifications, such as MTA-Python and Java and GCP Cloud Carrier Path.}
+                \vspace{-7pt}
+                \resumeItem{Led chapter of 30+ members to work towards goals that improve and promote CedzLabs community service, academics, and unity.}
+            \resumeItemListEnd
+    \vspace{-8pt}
+    \textbf{Strengths : }\emph{Leadersip skills,
+Multitasking,
+Attention to details.
+}
+\end{document}
