@@ -1,12 +1,11 @@
 ## GPT - Prompt
 
-as per the job description create a perfect resume you have choice of creating your own projects, skills and description.
+as per the job description create a perfect resume you have choice of creating any  projects which is mostly related to job, skills and summary.
 
-job description
+## job description
 ''
 
-overleaf resume
-
+## overleaf resume
 
 "
 \begin{document}
