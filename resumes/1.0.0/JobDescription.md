@@ -6,6 +6,7 @@ https://www.linkedin.com/jobs/collections/recommended/?currentJobId=4034980966&e
 
 
 About the job
+
 Position: Frontend Developer & UI/UX Designer 
 
 Location: Saarbrücken Innovation Center (Onsite/Hybrid) 
