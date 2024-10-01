@@ -8,25 +8,26 @@ job description
 overleaf resume
 
 
-"\begin{document}
-
+"
+\begin{document}
 \fontfamily{cmr}\selectfont
 \begin{center}
-\parbox{2.5cm}{%
+\parbox{3.0cm}{%
 
-\includegraphics[width=2.3cm,clip]{images/resume_pic_m.png}}
+\includegraphics[width=2.7cm,clip]{images/resume_pic_m.png}}
 }
-\parbox{\dimexpr\linewidth-3.5cm\relax}{
-\vspace{-17pt}
+\parbox{\dimexpr\linewidth-3.8cm\relax}{
+\vspace{-20pt}
 \begin{tabularx}{\linewidth}{L r} \\
-{\Huge \scshape Venkata Sai Yakkshit Reddy Asodi} \\ \vspace{5pt}
-\small \raisebox{-0.1\height}\faMapMarker\ Sweden ~
-\small \raisebox{-0.1\height}\faPhone\ +46 0793550685 ~
-\href{https://www.yakkshit.com}{\raisebox{-0.2\height}\faGlobe\ {yakkshit.com}} ~
-\href{mailto:saiyakkshit2001@gmail.com}{\raisebox{-0.2\height}\faEnvelope\ {saiyakkshit2001@gmail.com}} ~
-\href{https://linkedin.com/in/yakkshit}{\raisebox{-0.2\height}\faLinkedin\ {yakkshit}} ~
-\href{https://github.com/yakkshit}{\raisebox{-0.2\height}\faGithub\ yakkshit}
-\vspace{-8pt}
+    {\Huge \scshape  Venkata Sai Yakkshit Reddy Asodi}~
+    \href{https://www.cedzlabs.com/yakkshit}{\vspace{1pt}}\\
+      Berlin, Germany. \\ \vspace{1pt}
+     \small \raisebox{-0.1\height}\faPhone\ +91 8179936156 ~ \href{mailto:saiyakkshit2001@gmail.com}{\raisebox{-0.2\height}\faEnvelope\  {saiyakkshit2001@gmail.com}} ~ 
+    \href{https://linkedin.com/in/yakkshit/}{\raisebox{-0.2\height}\faLinkedin\ {yakkshit}}  ~
+    \href{https://yakkshit.com/}{\raisebox{-0.2\height}\faGlobe\ {yakkshit.com}}  ~
+    \href{https://github.com/yakkshit}{\raisebox{-0.2\height}\faGithub{ yakkshit}}
+    \vspace{-8pt}
+    
 \end{tabularx}
 }
 \end{center}
@@ -34,16 +35,16 @@ overleaf resume
 \vspace{-23pt}
 %-----------EDUCATION-----------
 \href{https://www.yakkshit.com/#details}{\section{Summary \faLink}
-Experienced Software Developer specializing in backend development, with a strong focus on application development. Proven ability to work in cross-functional teams to build scalable, secure, and user-friendly platforms. Passionate about staying current with emerging technologies and consistently delivering high-quality solutions.}
+Dynamic Frontend Developer and UI/UX Designer with extensive experience in developing responsive applications using the Meteor framework. Proven track record of creating user-centered designs and seamless digital experiences, especially in AI-powered technologies. Passionate about privacy-focused innovations in the tech industry.}
 
 %-----------PROGRAMMING SKILLS-----------
 \section{\href{https://www.linkedin.com/in/yakkshit/details/skills/}{Technical Skills} \faLink}
 \begin{itemize}[leftmargin=0.15in, label={}]
 \small{\item{
-\textbf{Deployment/Automation/tools - }{Kuberneties, Docker, Turborepo, Bash Scripting, Gerrit, Bitbucket/Gitlab.} \\
-\textbf{Frameworks - }{Django, React, Langchain, nodejs, Flutter, Springboots.} \\
-\textbf{Tools - }{GCP, AWS, Postman, Swagger, Serverless Architecture.} \\
-\textbf{Languages - }{ Python, C\#\ , Dart, JS, SQL.}\\
+\textbf{Frameworks - }{Meteor, React, Vue.js, Figma, Sketch.} \\
+\textbf{Languages - }{JavaScript (ES6+), HTML5, CSS3, Python.} \\
+\textbf{Tools - }{Git, Postman, Swagger, RESTful APIs.} \\
+\textbf{Deployment - }{AWS, Azure, Docker, Kubernetes.}\\
 }}
 \end{itemize}
 \vspace{-10pt}
@@ -54,42 +55,37 @@ Experienced Software Developer specializing in backend development, with a stron
 \resumeSubHeadingListStart
 
 \resumeSubheading
-{\large Circleup \faBuilding}{December 2023 -- July 2024}
-{Co-Founder/Lead Full Stack Engineer}{\faMapMarker \hspace{0.1cm} Zurich, Switzerland}\\
+{\large Circleup AG \faBuilding}{December 2023 -- July 2024}
+  {Lead Full Stack Engineer(Frontend Focus)}{\faMapMarker \hspace{0.1cm} Zurich, Switzerland}\\
 \vspace{10pt}
 \textbf{Responsibilities:}
 \resumeItemListStart
 \vspace{-10pt}
-\resumeItem{Developed React and Flutter applications with Django as the backend, integrating a multimodal RAG-based agent. Proficient in debugging code, resolving issues, and optimizing performance using various testing frameworks and libraries. Ensured application quality, reliability, and performance, while following Agile and Kanban methodologies to deliver high-quality software in sprints.}
+\resumeItem{Developed responsive web applications using the Meteor framework, ensuring seamless user experiences for AI-driven services. Collaborated closely with backend developers to integrate APIs, focusing on LLM-TGI-related endpoints.}
+\resumeItem{Led the design and implementation of modern, user-centered UI/UX, creating reusable components and maintaining a design system. Optimized applications for scalability and performance in a fast-paced startup environment.}
 \resumeItemListEnd
 \vspace{-3pt}
-\textbf{Environment:}\emph{React, RAG, LLMs, GPT, Flutter, Django, Docker, Kubernetes, Quality Assurance Testing, Performance Analysis.}
+\textbf{Environment:}\emph{Meteor, React, Figma, JavaScript, RESTful APIs, Agile methodologies.}
 
 \resumeSubheading
-{Spoki \faBuilding}{Apr 2024 -- May 2024}
-{Software Developer}{ \faMapMarker Italy}\\
+{Cedzlabs \faBuilding}{March 2023 -- July 2024}
+{Full Stack (Frontend Focus)}{\faMapMarker \hspace{0.1cm} India.}\\
 \vspace{10pt}
-
-\textbf{Responsibilities : }
+\textbf{Responsibilities:}
 \vspace{-10pt}
 \resumeItemListStart
-\resumeItem{I worked as a consultant to develop a software integration between Spoki and Magento. He demonstrated exceptional technical skills, professionalism, and a strong work ethic, ensuring the project was completed on time with high quality. I have effectively communicated and collaborated with our team, making a valuable asset to the project's success.}
+\resumeItem{Created intuitive UI/UX designs for web applications, focusing on responsive and accessible design principles. Collaborated with cross-functional teams to gather requirements and deliver projects on time.}
 \resumeItemListEnd
 \vspace{-3pt}
-\textbf{Environment:}\emph{Saas, Whatsapp APi, Magento, Php, plugin, RestAPi, automation.}
+\textbf{Environment:}\emph{React, CSS3, HTML5, Figma, Git.}
 
 \resumeItem{\textbf{\href{https://linkedin.com/in/yakkshit}{Checkout my other experiences by clicking here}}}
 \vspace{-5pt}
+
 %-----------PROJECTS-----------
 \section{Projects \faGithub}
 \vspace{-5pt}
 \resumeSubHeadingListStart
-
-%---------------------------------------------------------------------------
-
-% Ai Resume
-% -----------------------------------------------------------------------------
-
 \resumeProjectHeading
 {\textbf{\href{https://ui.cedzlabs.com/resume}{AI Resume Tuner}} $|$ \emph{Azure Cloud, Next.js, RAG, LLMs}}{August 2023 $|$ \faBuilding \hspace{0.1cm}Microsoft}\\
 \vspace{6pt}
@@ -103,61 +99,31 @@ Experienced Software Developer specializing in backend development, with a stron
 Next.js, Azure Cloud, RAG, LLMs, Microsoft AI Studio.}
 \vspace{-10pt}
 
-
-% ---------------------------------------------------------------------------
-
-% Portfolio
-
-% -----------------------------------------------------------------------------
-
 \resumeProjectHeading
-{\href{https://yakkshit.com}{\textbf{AWS Hosting Deployment, Monitoring, and Serverless Functions }} $|$ \emph{NextJS, AWS CLI}}{January 2023}\\
+{\href{https://yakkshit.com}{\textbf{Portfolio Website}} $|$ \emph{NextJS, AWS}}{January 2023}\\
 \vspace{6pt}
 \textbf{Description:}
 \vspace{-5pt}
 \resumeItemListStart
-\resumeItem{Designed and implemented a secure file encryption/decryption system on AWS, built and deployed a scalable website using NextJS and AWS services, and designed a user-friendly UI/UX for portfolio website using Storybook, Figma, Typescript, React and GraphQL.}
+\resumeItem{Designed and implemented a secure file encryption/decryption system on AWS, built and deployed a scalable website using NextJS, and created a user-friendly UI/UX for my portfolio using Figma and React.}
 \resumeItemListEnd
 \vspace{4pt}
-\textbf{Tools:}\emph{ \href{https://yakkshit.com}{3d modeling, S3, encryption, decryption, unique key, IAM, secure files, React, Threejs.}}
+\textbf{Tools:}\emph{NextJS, AWS, Figma, React.}
 \vspace{-12pt}
-%---------------------------------------------------------------------------
-
-% End
-% -----------------------------------------------------------------------------
 
 %-----------INVOLVEMENT---------------
 \section{Achievements / Extracurricular / Contributions}
 \resumeSubHeadingListStart
 \resumeItemListStart
-\resumeItem{I have experience in implementing professional practices such as Agile methodologies including Scrum and Kanban.}
-\resumeItem{I have Contributed to many open source services which include Kubernetes and MicroK8s. }
-\resumeItem{Led chapter of 30+ members to work towards goals that improve and promote community service, academics, and unity.}
+\resumeItem{Experience implementing Agile methodologies, including Scrum and Kanban.}
+\resumeItem{Contributed to various open-source projects related to web development and design systems.}
+\resumeItem{Active participant in tech meetups and workshops, focusing on UI/UX best practices.}
 \resumeItemListEnd
 
 \resumeSubHeadingListEnd
-\textbf{Strengths : }\emph{Leadersip skills,
-Self-confidence, decision making,
-Attention to details.
-} \\
+\textbf{Strengths : }\emph{Leadership, self-motivation, attention to detail, and adaptability.} \\
 
 \vspace{10pt}
-\textcolor{white}{\emph{web application development
-saas
-product manager
-product
-problem solving skills
-postgresql
-market
-integration test
-growth
-discovery
-customer needs
-cross functional
-communication skills
-collaboration
-best practices}}
-
 \end{document}
 "
 the goal is that this candidate has to be invited for an interview.
