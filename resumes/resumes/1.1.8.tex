@@ -1,16 +1,113 @@
-As per the job description create a perfect resume you have choice of creating any  personal projects related to job or change personal projects description, Technical skills, Achivements and summary.
+\documentclass[letterpaper,11pt]{article}
 
-## job description
-''
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\usepackage{fontawesome5}
+\usepackage{multicol}
+\setlength{\multicolsep}{-3.0pt}
+\setlength{\columnsep}{-1pt}
+\input{glyphtounicode}
 
-## overleaf resume
+%new packages
 
-"
+\usepackage{fontenc}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{graphicx}
+
+
+
+%----------FONT OPTIONS----------
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.6in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1.19in}
+\addtolength{\topmargin}{-.7in}
+\addtolength{\textheight}{1.4in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large\bfseries
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+
+
+% Ensure that generate pdf is machine readable/ATS parsable
+\pdfgentounicode=1
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\classesList}[4]{
+    \item\small{
+        {#1 #2 #3 #4 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{1.0\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & \textbf{\small #2} \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubSubheading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textit{\small#1} & \textit{\small #2} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeProjectHeading}[2]{
+    \item
+    \begin{tabular*}{1.001\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1 & \textbf{\small #2}\\
+    \end{tabular*}\vspace{-7pt}
+}
+
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+
+\renewcommand\labelitemi{$\vcenter{\hbox{\tiny$\bullet$}}$}
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.0in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
 \begin{document}
 \fontfamily{cmr}\selectfont
 \begin{center}
 \parbox{3.0cm}{%
-
 \includegraphics[width=2.7cm,clip]{images/resume_pic_m.png}}
 }
 \parbox{\dimexpr\linewidth-3.8cm\relax}{
@@ -32,16 +129,16 @@ As per the job description create a perfect resume you have choice of creating a
 \vspace{-23pt}
 %-----------EDUCATION-----------
 \href{https://www.yakkshit.com/#details}{\section{Summary \faLink}
-Dynamic Frontend Developer and UI/UX Designer with extensive experience in developing responsive applications using the Meteor framework. Proven track record of creating user-centered designs and seamless digital experiences, especially in AI-powered technologies. Passionate about privacy-focused innovations in the tech industry.}
+Aspiring Full Stack Developer with a strong foundation in frontend and backend technologies. Adept at problem-solving and eager to learn new skills. Proven experience in developing responsive applications and collaborating in team environments. Passionate about creating efficient and user-friendly software solutions.}
 
 %-----------PROGRAMMING SKILLS-----------
 \section{\href{https://www.linkedin.com/in/yakkshit/details/skills/}{Technical Skills} \faLink}
 \begin{itemize}[leftmargin=0.15in, label={}]
 \small{\item{
-\textbf{Frameworks - }{Meteor, React, Vue.js, Figma, Sketch.} \\
-\textbf{Languages - }{JavaScript (ES6+), HTML5, CSS3, Python.} \\
-\textbf{Tools - }{Git, Postman, Swagger, RESTful APIs.} \\
-\textbf{Deployment - }{AWS, Azure, Docker, Kubernetes.}\\
+\textbf{Frameworks - }{React, Node.js, Express, Bootstrap, Figma.} \\
+\textbf{Languages - }{JavaScript (ES6+), HTML5, CSS3, PHP, Python.} \\
+\textbf{Tools - }{Git, Docker, Postman, Swagger, RESTful APIs.} \\
+\textbf{Deployment - }{AWS, Azure, Nginx.}\\
 }}
 \end{itemize}
 \vspace{-10pt}
@@ -53,7 +150,7 @@ Dynamic Frontend Developer and UI/UX Designer with extensive experience in devel
 
 \resumeSubheading
 {\large Circleup AG \faBuilding}{December 2023 -- July 2024}
-  {Lead Full Stack Engineer(Frontend Focus)}{\faMapMarker \hspace{0.1cm} Zurich, Switzerland}\\
+  {Lead Full Stack Engineer (Frontend Focus)}{\faMapMarker \hspace{0.1cm} Zurich, Switzerland}\\
 \vspace{10pt}
 \textbf{Responsibilities:}
 \resumeItemListStart
@@ -66,7 +163,7 @@ Dynamic Frontend Developer and UI/UX Designer with extensive experience in devel
 
 \resumeSubheading
 {Cedzlabs \faBuilding}{March 2023 -- July 2024}
-{Full Stack (Frontend Focus)}{\faMapMarker \hspace{0.1cm} India.}\\
+{Full Stack Developer}{\faMapMarker \hspace{0.1cm} India.}\\
 \vspace{10pt}
 \textbf{Responsibilities:}
 \vspace{-10pt}
@@ -108,7 +205,7 @@ Next.js, Azure Cloud, RAG, LLMs, Microsoft AI Studio.}
 \textbf{Tools:}\emph{NextJS, AWS, Figma, React.}
 \vspace{-12pt}
 
-\section*{Languages}
+\section{Languages}
 \begin{itemize}
   \item Telugu - Native $|$ English - Fluent $|$ Hindi - Fluent $|$ German - Elementary $|$ Swedish - Elementary.
 \end{itemize}
@@ -127,7 +224,3 @@ Next.js, Azure Cloud, RAG, LLMs, Microsoft AI Studio.}
 
 \vspace{10pt}
 \end{document}
-"
-the goal is that this candidate has to be invited for an interview.
-
-give me code in a single snippet and just give me overleaf code  no need of explinations
