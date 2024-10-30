@@ -108,11 +108,6 @@ Next.js, Azure Cloud, RAG, LLMs, Microsoft AI Studio.}
 \textbf{Tools:}\emph{NextJS, AWS, Figma, React.}
 \vspace{-12pt}
 
-\section*{Languages}
-\begin{itemize}
-  \item Telugu - Native $|$ English - Fluent $|$ Hindi - Fluent $|$ German - Elementary $|$ Swedish - Elementary.
-\end{itemize}
-
 %-----------INVOLVEMENT---------------
 \section{Achievements / Extracurricular / Contributions}
 \resumeSubHeadingListStart
@@ -124,6 +119,7 @@ Next.js, Azure Cloud, RAG, LLMs, Microsoft AI Studio.}
 
 \resumeSubHeadingListEnd
 \textbf{Strengths : }\emph{Leadership, self-motivation, attention to detail, and adaptability.} \\
+\textbf{Languages:}\emph{Telugu - Native $|$ English - Fluent $|$ Hindi - Fluent $|$ German - Elementary $|$ Swedish - Elementary.}
 
 \vspace{10pt}
 \end{document}
