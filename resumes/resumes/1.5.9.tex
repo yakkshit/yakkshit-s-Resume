@@ -1,0 +1,219 @@
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\usepackage{fontawesome5}
+\usepackage{multicol}
+\setlength{\multicolsep}{-3.0pt}
+\setlength{\columnsep}{-1pt}
+\input{glyphtounicode}
+
+%new packages
+
+\usepackage{fontenc}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{graphicx}
+
+
+
+%----------FONT OPTIONS----------
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.6in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1.19in}
+\addtolength{\topmargin}{-.7in}
+\addtolength{\textheight}{1.4in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large\bfseries
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+
+
+% Ensure that generate pdf is machine readable/ATS parsable
+\pdfgentounicode=1
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\classesList}[4]{
+    \item\small{
+        {#1 #2 #3 #4 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{1.0\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & \textbf{\small #2} \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubSubheading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textit{\small#1} & \textit{\small #2} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeProjectHeading}[2]{
+    \item
+    \begin{tabular*}{1.001\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1 & \textbf{\small #2}\\
+    \end{tabular*}\vspace{-7pt}
+}
+
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+
+\renewcommand\labelitemi{$\vcenter{\hbox{\tiny$\bullet$}}$}
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.0in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+\begin{document}
+\fontfamily{cmr}\selectfont
+\begin{center}
+\parbox{3.0cm}{%
+\includegraphics[width=2.7cm,clip]{images/resume_pic_m.png}}
+\parbox{\dimexpr\linewidth-3.8cm\relax}{
+\vspace{-20pt}
+\begin{tabularx}{\linewidth}{L r} \\
+    {\Huge \scshape  Venkata Sai Yakkshit Reddy Asodi}~
+    \href{https://www.cedzlabs.com/yakkshit}{\vspace{1pt}}\\
+      Geneva, switzerland. \\ \vspace{1pt}
+     \small \raisebox{-0.1\height}\faPhone\ +91 9493006444 ~ \href{mailto:saiyakkshit2001@gmail.com}{\raisebox{-0.2\height}\faEnvelope\  {saiyakkshit2001@gmail.com}} ~ 
+    \href{https://linkedin.com/in/yakkshit/}{\raisebox{-0.2\height}\faLinkedin\ {yakkshit}}  ~
+    \href{https://yakkshit.com/}{\raisebox{-0.2\height}\faGlobe\ {yakkshit.com}}  ~
+    \href{https://github.com/yakkshit}{\raisebox{-0.2\height}\faGithub{ yakkshit}}
+    \vspace{-8pt}
+\end{tabularx}
+}
+\end{center}
+
+\vspace{-23pt}
+%-----------SUMMARY-----------
+\section{Summary \faLink}
+Creative and versatile Full Stack Developer with a strong focus on mobile development using Flutter and React Native. Experienced in creating cross-platform applications with engaging UI/UX designs. Passionate about bridging technology and art through innovative solutions. Proven track record in leading development teams and mentoring junior developers. Currently pursuing opportunities to contribute to the emerging art-tech sector.
+
+%-----------TECHNICAL SKILLS-----------
+\section{\href{https://www.linkedin.com/in/yakkshit/details/skills/}{Technical Skills} \faLink}
+\begin{itemize}[leftmargin=0.15in, label={}]
+\small{\item{
+\textbf{Mobile Development - }{Flutter, React Native, iOS Development} \\
+\textbf{Frontend - }{React, TypeScript, WordPress, PHP} \\
+\textbf{Backend - }{Node.js, Firebase, Web3, Solidity} \\
+\textbf{UI/UX - }{Figma, Adobe XD, Material Design} \\
+\textbf{Tools - }{Git, Firebase, Google Cloud Platform}
+}}
+\end{itemize}
+\vspace{-10pt}
+
+%-----------EXPERIENCE-----------
+\section{Experience \faLinkedin}
+
+\resumeSubHeadingListStart
+
+\resumeSubheading
+{\large Circleup AG \faBuilding}{December 2023 -- July 2024}
+{Lead Mobile Developer}{\faMapMarker \hspace{0.1cm} Zurich, Switzerland}\\
+\vspace{10pt}
+\textbf{Responsibilities:}
+\resumeItemListStart
+\vspace{-10pt}
+\resumeItem{Led the development of cross-platform mobile applications using Flutter and React Native, achieving a 4.8-star rating on app stores.}
+\resumeItem{Mentored junior developers and implemented best practices for mobile development workflow.}
+\resumeItem{Integrated Web3 functionality and smart contracts using Solidity for digital asset management.}
+\resumeItemListEnd
+\vspace{-3pt}
+\textbf{Environment:}\emph{Flutter, React Native, TypeScript, Node.js, Firebase, Solidity}
+
+\resumeSubheading
+{Cedzlabs \faBuilding}{March 2023 -- July 2024}
+{Full Stack Developer}{\faMapMarker \hspace{0.1cm} Berlin, Germany}\\
+\vspace{10pt}
+\textbf{Responsibilities:}
+\vspace{-10pt}
+\resumeItemListStart
+\resumeItem{Developed and maintained WordPress-based platforms with custom PHP plugins and themes.}
+\resumeItem{Created responsive UI components using React and implemented modern design principles.}
+\resumeItemListEnd
+\vspace{-3pt}
+\textbf{Environment:}\emph{React, WordPress, PHP, Node.js, Flutter}
+
+%-----------PROJECTS-----------
+\section{Projects \faGithub}
+\vspace{-5pt}
+\resumeSubHeadingListStart
+\resumeProjectHeading
+{\textbf{\href{https://ui.cedzlabs.com/resume}{Digital Art Marketplace}} $|$ \emph{Flutter, Firebase, Web3}}{2023}\\
+\vspace{6pt}
+\textbf{Description:}
+\vspace{-5pt}
+\resumeItemListStart
+\resumeItem{Designed and developed a cross-platform marketplace for digital art using Flutter and Firebase. Implemented Web3 integration for NFT trading and authentication. Created an intuitive UI/UX that received positive feedback from both artists and collectors. Achieved 50\% increase in user engagement through optimized performance and user experience.}
+\resumeItemListEnd
+\vspace{4pt}
+\textbf{Tools:}\emph{Flutter, Firebase, Web3, Solidity, Node.js}
+\vspace{-10pt}
+
+\resumeProjectHeading
+{\href{https://yakkshit.com}{\textbf{Creative Portfolio Platform}} $|$ \emph{React Native, WordPress}}{2023}\\
+\vspace{6pt}
+\textbf{Description:}
+\vspace{-5pt}
+\resumeItemListStart
+\resumeItem{Built a mobile-first portfolio platform for artists using React Native and WordPress backend. Implemented custom PHP plugins for advanced gallery features and social integration. Achieved seamless cross-platform performance and responsive design across all devices.}
+\resumeItemListEnd
+\vspace{4pt}
+\textbf{Tools:}\emph{React Native, WordPress, PHP, Node.js}
+\vspace{-12pt}
+
+%-----------ACHIEVEMENTS---------------
+\section{Achievements / Creative Projects}
+\resumeSubHeadingListStart
+\resumeItemListStart
+\resumeItem{Developed an award-winning mobile app for a local art gallery, increasing visitor engagement by 75\%.}
+\resumeItem{Created and maintained open-source Flutter widgets specifically designed for art showcase applications.}
+\resumeItem{Led workshops on mobile development and UI/UX design for creative applications.}
+\resumeItemListEnd
+
+\resumeSubHeadingListEnd
+\textbf{Strengths:}\emph{UI/UX design, mobile development, team leadership, creative problem-solving} \\
+\textbf{Languages:}\emph{Telugu - Native $|$ English - Fluent $|$ Hindi - Fluent $|$ German - Elementary $|$ Swedish - Elementary}
+
+\vspace{10pt}
+\end{document}

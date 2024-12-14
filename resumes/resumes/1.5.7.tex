@@ -1,0 +1,222 @@
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\usepackage{fontawesome5}
+\usepackage{multicol}
+\setlength{\multicolsep}{-3.0pt}
+\setlength{\columnsep}{-1pt}
+\input{glyphtounicode}
+
+%new packages
+
+\usepackage{fontenc}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{graphicx}
+
+
+
+%----------FONT OPTIONS----------
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.6in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1.19in}
+\addtolength{\topmargin}{-.7in}
+\addtolength{\textheight}{1.4in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large\bfseries
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+
+
+% Ensure that generate pdf is machine readable/ATS parsable
+\pdfgentounicode=1
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\classesList}[4]{
+    \item\small{
+        {#1 #2 #3 #4 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{1.0\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & \textbf{\small #2} \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubSubheading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textit{\small#1} & \textit{\small #2} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeProjectHeading}[2]{
+    \item
+    \begin{tabular*}{1.001\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1 & \textbf{\small #2}\\
+    \end{tabular*}\vspace{-7pt}
+}
+
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+
+\renewcommand\labelitemi{$\vcenter{\hbox{\tiny$\bullet$}}$}
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.0in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+\begin{document}
+\fontfamily{cmr}\selectfont
+\begin{center}
+\parbox{3.0cm}{%
+\includegraphics[width=2.7cm,clip]{images/resume_pic_m.png}}
+\parbox{\dimexpr\linewidth-3.8cm\relax}{
+\vspace{-15pt}
+\begin{tabularx}{\linewidth}{L r} \\
+    {\Huge \scshape  Venkata Sai Yakkshit Reddy Asodi}~
+    \href{https://www.cedzlabs.com/yakkshit}{\vspace{1pt}}\\
+      Geneva, Switzerland. \\ \vspace{1pt}
+     \small \raisebox{-0.1\height}\faPhone\ +91 9493006444 ~ \href{mailto:saiyakkshit2001@gmail.com}{\raisebox{-0.2\height}\faEnvelope\  {saiyakkshit2001@gmail.com}} ~ 
+    \href{https://linkedin.com/in/yakkshit/}{\raisebox{-0.2\height}\faLinkedin\ {yakkshit}}  ~
+    \href{https://yakkshit.com/}{\raisebox{-0.2\height}\faGlobe\ {yakkshit.com}}  ~
+    \href{https://github.com/yakkshit}{\raisebox{-0.2\height}\faGithub{ yakkshit}}
+    \vspace{-5pt}
+\end{tabularx}
+}
+\end{center}
+
+\vspace{-20pt}
+%-----------SUMMARY-----------
+\section{Summary \faLink}
+Full-stack engineer with a focus on AI innovation and healthcare technology. Experienced in developing scalable SaaS applications using Python and modern frameworks. Passionate about leveraging artificial intelligence to solve real-world healthcare challenges, with a proven track record of implementing AI-powered solutions. Seeking to contribute technical expertise to revolutionize mental healthcare through innovative technology solutions.
+
+%-----------TECHNICAL SKILLS-----------
+\section{\href{https://www.linkedin.com/in/yakkshit/details/skills/}{Technical Skills} \faLink}
+\begin{itemize}[leftmargin=0.15in, label={}]
+\small{\item{
+\textbf{Languages - }{Python, JavaScript (ES6+), HTML5, CSS3} \\
+\textbf{Frameworks - }{FastAPI, React, MongoDB, Flask} \\
+\textbf{AI/ML - }{LangChain, OpenAI API, Hugging Face Transformers, PyTorch} \\
+\textbf{Cloud \& DevOps - }{AWS, Docker, Kubernetes, CI/CD} \\
+\textbf{Tools - }{Git, RESTful APIs, Swagger, Agile/Scrum}
+}}
+\end{itemize}
+\vspace{-10pt}
+
+%-----------EXPERIENCE-----------
+\section{Experience \faLinkedin}
+
+\resumeSubHeadingListStart
+
+\resumeSubheading
+{\large Circleup AG \faBuilding}{December 2023 -- July 2024}
+{Lead Full Stack Engineer}{\faMapMarker \hspace{0.1cm} Zurich, Switzerland}\\
+\vspace{10pt}
+\textbf{Responsibilities:}
+\resumeItemListStart
+\vspace{-10pt}
+\resumeItem{Led the development of AI-powered SaaS applications, integrating advanced language models and speech recognition technologies to automate document processing workflows.}
+\resumeItem{Architected scalable backend solutions using Python and FastAPI, implementing robust API endpoints for AI model integration and data processing.}
+\resumeItem{Managed a cross-functional team in an agile environment, driving product development from conception to deployment.}
+\resumeItemListEnd
+\vspace{-3pt}
+\textbf{Environment:}\emph{Python, FastAPI, MongoDB, React, AWS, Docker}
+
+\resumeSubheading
+{Cedzlabs \faBuilding}{March 2023 -- July 2024}
+{Full Stack Engineer}{\faMapMarker \hspace{0.1cm} Berlin, Germany}\\
+\vspace{10pt}
+\textbf{Responsibilities:}
+\vspace{-10pt}
+\resumeItemListStart
+\resumeItem{Developed and maintained healthcare-focused SaaS applications, implementing secure data handling and GDPR compliance measures.}
+\resumeItem{Built RESTful APIs and microservices architecture for processing sensitive medical data, ensuring scalability and performance.}
+\resumeItemListEnd
+\vspace{-3pt}
+\textbf{Environment:}\emph{Python, MongoDB, FastAPI, AWS, React}
+
+\resumeItem{\textbf{\href{https://linkedin.com/in/yakkshit}{Checkout my other experiences by clicking here}}}
+\vspace{-5pt}
+
+%-----------PROJECTS-----------
+\section{Projects \faGithub}
+\vspace{-5pt}
+\resumeSubHeadingListStart
+\resumeProjectHeading
+{\textbf{\href{https://ui.cedzlabs.com/resume}{HealthDoc AI}} $|$ \emph{FastAPI, MongoDB, LangChain}}{2023}\\
+\vspace{6pt}
+\textbf{Description:}
+\vspace{-5pt}
+\resumeItemListStart
+\resumeItem{Developed an AI-powered medical documentation system that automates the creation and processing of clinical notes. Implemented advanced NLP techniques for medical text analysis and integrated speech-to-text capabilities for real-time transcription. Achieved 85\% reduction in documentation time for healthcare providers.}
+\resumeItemListEnd
+\vspace{4pt}
+\textbf{Tools:}\emph{Python, FastAPI, MongoDB, LangChain, AWS}
+\vspace{-10pt}
+
+\resumeProjectHeading
+{\href{https://yakkshit.com}{\textbf{AI Speech Analytics Platform}} $|$ \emph{Python, FastAPI}}{2023}\\
+\vspace{6pt}
+\textbf{Description:}
+\vspace{-5pt}
+\resumeItemListStart
+\resumeItem{Built a HIPAA-compliant platform for analyzing therapeutic conversations using AI. Implemented real-time speech processing and sentiment analysis for mental health professionals. Deployed on AWS with robust security measures and scaling capabilities.}
+\resumeItemListEnd
+\vspace{4pt}
+\textbf{Tools:}\emph{Python, FastAPI, MongoDB, AWS, React}
+\vspace{-12pt}
+
+%-----------ACHIEVEMENTS---------------
+\section{Achievements / Certifications}
+\resumeSubHeadingListStart
+\resumeItemListStart
+\resumeItem{Led development of an AI documentation system that reduced processing time by 70\% for healthcare providers.}
+\resumeItem{AWS Certified Solutions Architect with focus on HIPAA-compliant healthcare applications.}
+\resumeItem{Published research on AI applications in healthcare documentation automation.}
+\resumeItemListEnd
+
+\resumeSubHeadingListEnd
+\textbf{Strengths:}\emph{Healthcare AI expertise, technical leadership, agile methodologies, security compliance} \\
+\textbf{Languages:}\emph{Telugu - Native $|$ English - Fluent $|$ Hindi - Fluent $|$ German - Elementary $|$ Swedish - Elementary}
+
+\vspace{10pt}
+\end{document}

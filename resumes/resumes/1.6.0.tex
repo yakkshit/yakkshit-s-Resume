@@ -1,0 +1,201 @@
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\usepackage{fontawesome5}
+\usepackage{multicol}
+\setlength{\multicolsep}{-3.0pt}
+\setlength{\columnsep}{-1pt}
+\input{glyphtounicode}
+
+%new packages
+
+\usepackage{fontenc}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{graphicx}
+
+
+
+%----------FONT OPTIONS----------
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.6in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1.19in}
+\addtolength{\topmargin}{-.7in}
+\addtolength{\textheight}{1.4in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large\bfseries
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+
+
+% Ensure that generate pdf is machine readable/ATS parsable
+\pdfgentounicode=1
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\classesList}[4]{
+    \item\small{
+        {#1 #2 #3 #4 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{1.0\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & \textbf{\small #2} \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubSubheading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textit{\small#1} & \textit{\small #2} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeProjectHeading}[2]{
+    \item
+    \begin{tabular*}{1.001\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1 & \textbf{\small #2}\\
+    \end{tabular*}\vspace{-7pt}
+}
+
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+
+\renewcommand\labelitemi{$\vcenter{\hbox{\tiny$\bullet$}}$}
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.0in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+
+\documentclass[a4paper,11pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage{parskip}
+\usepackage{geometry}
+\usepackage{enumitem}
+\usepackage{fontawesome}
+\usepackage{hyperref}
+\usepackage{makecell}
+\usepackage{graphicx}
+\usepackage{xcolor}
+
+\geometry{a4paper, margin=0.75in}
+\setlist[itemize]{noitemsep, topsep=0pt}
+\setlist[enumerate]{noitemsep, topsep=0pt}
+
+\hypersetup{
+    colorlinks=true,
+    linkcolor=blue!50!black,
+    urlcolor=blue!50!black,
+}
+
+\begin{document}
+\begin{center}
+{\huge \textbf{Venkata Sai Yakkshit Reddy Asodi}}\\
+\vspace{0.2cm}
+Berlin, Germany $\cdot$ 
+\href{mailto:saiyakkshit2001@gmail.com}{saiyakkshit2001@gmail.com} $\cdot$ 
++91 9493006444 $\cdot$ 
+\href{https://linkedin.com/in/yakkshit}{LinkedIn} $\cdot$ 
+\href{https://github.com/yakkshit}{GitHub}
+\end{center}
+\vspace{-5pt}
+\section*{Professional Summary}
+Passionate Full-Stack Engineer with extensive experience in building AI-powered web applications, specializing in creating innovative, user-centric solutions. Proven track record of shipping products rapidly in startup environments, with strong expertise in React, Next.js, TypeScript, Python, and cloud technologies. Excited about leveraging LLMs to streamline complex processes.
+\vspace{-10pt}
+\section*{Technical Skills}
+\begin{itemize}
+\item \textbf{Languages:} TypeScript, Python, JavaScript (ES6+), HTML5, CSS3
+\item \textbf{Frameworks \& Libraries:} React, Next.js, FastAPI, Docker
+\item \textbf{Cloud \& DevOps:} Azure, Vercel, Postgres, Kubernetes
+\item \textbf{AI \& Machine Learning:} LLMs, Retrieval Augmented Generation (RAG), AI Agent Development
+\item \textbf{Tools:} Git, Postman, Swagger, RESTful APIs
+\end{itemize}
+
+\section*{Professional Experience}
+
+\textbf{Circleup AG, Zurich, Switzerland} \hfill December 2023 -- Present
+\textit{Lead Full Stack Engineer (Frontend Focus)}
+\begin{itemize}
+\item Architected AI-driven web applications using Meteor framework, focusing on seamless user experiences
+\item Developed and integrated LLM-powered endpoints, reducing bureaucratic workflow complexities
+\item Led UI/UX design efforts, creating scalable component libraries and design systems
+\item Collaborated with cross-functional teams to rapidly iterate and deploy innovative solutions
+\end{itemize}
+
+\textbf{Cedzlabs, India} \hfill March 2023 -- July 2024
+\textit{Full Stack Developer (Frontend Focus)}
+\begin{itemize}
+\item Designed responsive web applications with a focus on intuitive user interfaces
+\item Implemented modern frontend architectures using React and cutting-edge web technologies
+\item Optimized application performance and user engagement through strategic design choices
+\end{itemize}
+
+\section*{Notable Projects}
+
+\textbf{AI Resume Tuner} \hfill August 2023
+\begin{itemize}
+\item Developed an AI-powered resume customization platform using Retrieval Augmented Generation
+\item Integrated multimodal LLMs to generate tailored resumes based on job descriptions
+\item Deployed on Azure Cloud, demonstrating scalability and performance optimization
+\end{itemize}
+
+\textbf{Portfolio Website} \hfill January 2023
+\begin{itemize}
+\item Created a secure, scalable personal portfolio using Next.js and AWS
+\item Implemented advanced frontend techniques and responsive design principles
+\end{itemize}
+\vspace{-10pt}
+\section*{Achievements \& Contributions}
+\begin{itemize}
+\item Consistently demonstrated ability to ship products quickly in fast-paced startup environments
+\item Active contributor to open-source projects in web development and AI technologies
+\item Expertise in Agile methodologies, with a focus on rapid iteration and continuous improvement
+\item Passionate about exploring innovative applications of generative AI and large language models
+\end{itemize}
+\vspace{-8pt}
+\section*{Education}
+Bachelor of Technology in Computer Science \hfill Graduated 2022
+\textit{(Specific University details can be discussed during interview)}
+\vspace{-10pt}
+\section*{Languages}
+English (Fluent), Telugu (Native), Hindi (Fluent), German (Elementary)
+
+\end{document}

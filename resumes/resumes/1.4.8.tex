@@ -1,0 +1,221 @@
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\usepackage{fontawesome5}
+\usepackage{multicol}
+\setlength{\multicolsep}{-3.0pt}
+\setlength{\columnsep}{-1pt}
+\input{glyphtounicode}
+
+%new packages
+
+\usepackage{fontenc}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{graphicx}
+
+
+
+%----------FONT OPTIONS----------
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.6in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1.19in}
+\addtolength{\topmargin}{-.7in}
+\addtolength{\textheight}{1.4in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large\bfseries
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+
+
+% Ensure that generate pdf is machine readable/ATS parsable
+\pdfgentounicode=1
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\classesList}[4]{
+    \item\small{
+        {#1 #2 #3 #4 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{1.0\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & \textbf{\small #2} \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubSubheading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textit{\small#1} & \textit{\small #2} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeProjectHeading}[2]{
+    \item
+    \begin{tabular*}{1.001\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1 & \textbf{\small #2}\\
+    \end{tabular*}\vspace{-7pt}
+}
+
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+
+\renewcommand\labelitemi{$\vcenter{\hbox{\tiny$\bullet$}}$}
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.0in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+
+\begin{document}
+\fontfamily{cmr}\selectfont
+\begin{center}
+\parbox{3.0cm}{%
+\includegraphics[width=2.7cm,clip]{images/resume_pic_m.png}}
+}
+\parbox{\dimexpr\linewidth-3.8cm\relax}{
+\vspace{-20pt}
+\begin{tabularx}{\linewidth}{L r} \\
+    {\Huge \scshape  Venkata Sai Yakkshit Reddy Asodi}~
+    \href{https://www.cedzlabs.com/yakkshit}{\vspace{1pt}}\\
+      Berlin, Germany. \\ \vspace{1pt}
+     \small \raisebox{-0.1\height}\faPhone\ +91 9493006444 ~ \href{mailto:saiyakkshit2001@gmail.com}{\raisebox{-0.2\height}\faEnvelope\  {saiyakkshit2001@gmail.com}} ~ 
+    \href{https://linkedin.com/in/yakkshit/}{\raisebox{-0.2\height}\faLinkedin\ {yakkshit}}  ~
+    \href{https://yakkshit.com/}{\raisebox{-0.2\height}\faGlobe\ {yakkshit.com}}  ~
+    \href{https://github.com/yakkshit}{\raisebox{-0.2\height}\faGithub{ yakkshit}}
+    \vspace{-8pt}
+\end{tabularx}
+}
+\end{center}
+
+\vspace{-23pt}
+%-----------EDUCATION-----------
+\href{https://www.yakkshit.com/#details}{\section{Summary \faLink}
+Full-stack Engineer with deep expertise in AI/ML technologies, specializing in building scalable applications using modern frameworks and LLMs. Proven track record in developing end-to-end solutions, from RAG systems to responsive frontends. Passionate about leveraging cutting-edge technologies to solve complex business challenges, with experience in both startup and enterprise environments.}
+
+%-----------PROGRAMMING SKILLS-----------
+\section{\href{https://www.linkedin.com/in/yakkshit/details/skills/}{Technical Skills} \faLink}
+\begin{itemize}[leftmargin=0.15in, label={}]
+\small{\item{
+\textbf{Frontend - }{React, Next.js, TypeScript, HTML5, CSS3, UI/UX Design.} \\
+\textbf{Backend \& AI - }{Python, FastAPI, LLMs, RAG, Jupyter Notebooks, Docker.} \\
+\textbf{Cloud \& DevOps - }{Azure, AWS, Vercel, Kubernetes, CI/CD.} \\
+\textbf{Databases - }{PostgreSQL, MongoDB, Vector Databases, Redis.}\\
+}}
+\end{itemize}
+\vspace{-10pt}
+
+%-----------EXPERIENCE-----------
+\section{Experience \faLinkedin}
+
+\resumeSubHeadingListStart
+
+\resumeSubheading
+{\large Circleup AG \faBuilding}{December 2023 -- July 2024}
+{Lead Full Stack Engineer}{\faMapMarker \hspace{0.1cm} Zurich, Switzerland}\\
+\vspace{10pt}
+\textbf{Responsibilities:}
+\resumeItemListStart
+\vspace{-10pt}
+\resumeItem{Architected and implemented end-to-end AI solutions using LLMs and RAG, creating scalable document processing pipelines and recommendation systems while ensuring seamless integration with frontend applications.}
+\resumeItem{Led the development of a modern tech stack combining Next.js frontend with Python/FastAPI backend, deploying microservices on Azure cloud and implementing CI/CD pipelines for automated testing and deployment.}
+\resumeItemListEnd
+\vspace{-3pt}
+\textbf{Environment:}\emph{Next.js, TypeScript, Python, FastAPI, LLMs, RAG, Azure, Docker, PostgreSQL.}
+
+\resumeSubheading
+{Cedzlabs \faBuilding}{March 2023 -- July 2024}
+{Full Stack AI Engineer}{\faMapMarker \hspace{0.1cm} India.}\\
+\vspace{10pt}
+\textbf{Responsibilities:}
+\vspace{-10pt}
+\resumeItemListStart
+\resumeItem{Developed AI-powered document processing systems using custom RAG pipelines and LLM integrations, while building intuitive user interfaces for complex data visualization and interaction.}
+\resumeItemListEnd
+\vspace{-3pt}
+\textbf{Environment:}\emph{Python, FastAPI, React, LLMs, Docker, AWS.}
+
+\resumeItem{\textbf{\href{https://linkedin.com/in/yakkshit}{Checkout my other experiences by clicking here}}}
+\vspace{-5pt}
+
+%-----------PROJECTS-----------
+\section{Projects \faGithub}
+\vspace{-5pt}
+\resumeSubHeadingListStart
+\resumeProjectHeading
+{\textbf{\href{https://ui.cedzlabs.com/resume}{Document Processing Pipeline}} $|$ \emph{Azure, FastAPI, Next.js}}{2024}\\
+\vspace{6pt}
+\textbf{Description:}
+\vspace{-5pt}
+\resumeItemListStart
+\resumeItem{Built an enterprise-grade document processing system using RAG and LLMs for automated information extraction and analysis. Implemented a scalable architecture handling multiple document formats, custom RAG pipelines for context-aware processing, and a Next.js frontend for real-time document visualization and editing.}
+\resumeItemListEnd
+\vspace{4pt}
+\textbf{Tools:}\emph{Python, FastAPI, Next.js, LLMs, RAG, Azure, Docker, PostgreSQL.}
+\vspace{-10pt}
+
+\resumeProjectHeading
+{\href{https://github.com/yakkshit}{\textbf{AI Agent Framework}} $|$ \emph{Python, FastAPI, LLMs}}{2023}\\
+\vspace{6pt}
+\textbf{Description:}
+\vspace{-5pt}
+\resumeItemListStart
+\resumeItem{Developed a modular AI agent framework for automated task execution, featuring custom LLM integration, advanced prompt engineering, and sophisticated evaluation metrics. Implemented concurrent processing and robust error handling for production deployment.}
+\resumeItemListEnd
+\vspace{4pt}
+\textbf{Tools:}\emph{Python, FastAPI, LLMs, Docker, Redis, PostgreSQL.}
+\vspace{-12pt}
+
+%-----------INVOLVEMENT---------------
+\section{Achievements / Extracurricular / Contributions}
+\resumeSubHeadingListStart
+\resumeItemListStart
+\resumeItem{Contributed to open-source LLM projects, focusing on RAG implementations and evaluation frameworks.}
+\resumeItem{Led technical workshops on AI integration in modern web applications.}
+\resumeItem{Active participant in AI and full-stack development communities, sharing knowledge through tech talks and blog posts.}
+\resumeItemListEnd
+
+\resumeSubHeadingListEnd
+\textbf{Strengths : }\emph{Full-stack development, AI/ML expertise, system design, technical leadership.} \\
+\textbf{Languages:}\emph{Telugu - Native $|$ English - Fluent $|$ Hindi - Fluent $|$ German - Elementary $|$ Swedish - Elementary.}
+
+\vspace{10pt}
+\end{document}
